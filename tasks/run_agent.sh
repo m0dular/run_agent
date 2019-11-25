@@ -2,7 +2,7 @@
 # shellcheck disable=SC2154,SC2034,SC1090
 
 declare PT__installdir
-source "$PT__installdir/deploy_pe/files/common.sh"
+source "$PT__installdir/run_agent/files/common.sh"
 PUPPET_BIN=/opt/puppetlabs/bin
 
 (( EUID == 0 )) || fail "This utility must be run as root"

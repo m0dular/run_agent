@@ -1,6 +1,6 @@
 {
   "name": "m0dular-run_agent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Adrian Parreiras Horta",
   "summary": "Run the Puppet agent until there are no changes",
   "license": "GPLv3",
